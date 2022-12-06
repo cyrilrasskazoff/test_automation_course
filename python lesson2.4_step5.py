@@ -29,3 +29,5 @@ try:
     assert "successful" in message.text # конструкция assert "text" in argument.text == argument содержит текст
 finally:
     browser.quit()
+
+# не забываем оставить пустую строку в конце файла!
