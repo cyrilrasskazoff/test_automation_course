@@ -1,2 +1,2 @@
 # test_automation_course
-test automation tasks
+Это репозиторий для хранения домашних заданий (и не только) по курсу автоматизация тестрования, https://stepik.org/course/575
