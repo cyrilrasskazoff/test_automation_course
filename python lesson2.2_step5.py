@@ -19,3 +19,5 @@ browser.execute_script("return arguments[0].scrollIntoView(true);", button)
 time.sleep(5)
 button.click()
 browser.quit()
+
+# не забываем оставить пустую строку в конце файла!
