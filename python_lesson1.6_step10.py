@@ -23,9 +23,10 @@ try:
 
     # находим элемент, содержащий текст
     welcome_text = browser.find_element(By.TAG_NAME, "h1")
+    text = welcome_text.text
 
     # с помощью assert проверяем, что ожидаемый текст совпадает с текстом на странице сайта
-    assert "Congratulations! You have successfully registered!" == welcome_text
+    assert "Congratulations! You have successfully registered!" == text
 
 finally:
     # ожидание чтобы визуально оценить результаты прохождения скрипта
