@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
-file_path = 'D:\\python_work\\Test_automation_pyton\\text_file.txt'
+file_path = 'D:\\python_work\\Automation_Testing_Sel\\text_file.txt'
 try:
     url = "http://suninjuly.github.io/file_input.html"
     browser = webdriver.Chrome()
