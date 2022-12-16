@@ -1,4 +1,4 @@
-# использование метода find_elements
+# Использование метода find_elements
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
