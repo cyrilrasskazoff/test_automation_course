@@ -1,4 +1,4 @@
-# Метод get_attribute
+# метод get_attribute
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
