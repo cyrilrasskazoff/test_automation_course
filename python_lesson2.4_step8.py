@@ -1,4 +1,4 @@
-# Explicit Waits (WebDriverWait и expected_conditions) - практика
+# Explicit Waits (WebDriverWait и expected_conditions) - практика.
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
