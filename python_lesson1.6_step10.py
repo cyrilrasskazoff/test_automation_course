@@ -1,4 +1,4 @@
-# уникальность селекторов + assert
+# Уникальность селекторов + assert
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
