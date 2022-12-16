@@ -1,4 +1,4 @@
-# поиск элемента по тексту в ссылке: link = browser.find_element(By.LINK_TEXT, "full text of the link") - по полному соответствию текста
+# Поиск элемента по тексту в ссылке: link = browser.find_element(By.LINK_TEXT, "full text of the link") - по полному соответствию текста
 # link = browser.find_element(By.PARTIAL_LINK_TEXT, "partial text of the link") - по подстроке
 import math
 import time
