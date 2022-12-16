@@ -13,7 +13,7 @@ try:
     browser = webdriver.Chrome()
     browser.get(url)
 
-# Для этой задачи вам понадобится использовать атрибут .text для найденного элемента.
+# Для этой задачи понадобится использовать атрибут .text для найденного элемента.
 # Обратите внимание, что скобки здесь не нужны:
     x_element = browser.find_element(By.CSS_SELECTOR, '#input_value') # <span class="nowrap" id="input_value">559</span>
     x = x_element.text
