@@ -1,4 +1,4 @@
-# Работа с выпадающими списками:
+# работа с выпадающими списками:
 # browser.find_element(By.{choose a necessary selector}, "{}").click() - находим выпадающий список и кликаем по нему
 # browser.find_element(By.{choose a necessary selector}, "{}").click() - находим нужный вариант в списке и кликаем по нему
 
@@ -7,6 +7,7 @@
 # dropdown = Select(browser.find_element(By.TAG_NAME, "select")) - инициализируем новый объект списка, передав в него WebElement с тегом select
 # dropdown.select_by_value("{value}") OR dropdown.select_by_visible_text("{text}") OR dropdown.select_by_index({index}) - находим любой вариант из списка
 # с помощью метода select_by_
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
