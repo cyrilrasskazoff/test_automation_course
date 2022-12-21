@@ -16,10 +16,10 @@ url = "http://selenium1py.pythonanywhere.com/"
 @pytest.fixture(scope="class")
 def browser():
     print("\nstart browser for test..")
-    browser = webdriver.Chrome()
-    yield browser
+    driver = webdriver.Chrome()
+    yield driver
     print("\nquit browser..")
-    browser.quit()
+    driver.quit()
 
 
 class TestMainPage1():
