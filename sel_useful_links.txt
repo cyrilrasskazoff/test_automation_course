@@ -38,3 +38,6 @@ https://docs.pytest.org/en/latest/how-to/xunit_setup.html
 Дополнительные материалы про фикстуры
 https://habr.com/ru/company/yandex/blog/242795/
 https://docs.pytest.org/en/stable/fixture.html
+
+skip and xfail
+https://pytest.org/en/stable/how-to/skipping.html
