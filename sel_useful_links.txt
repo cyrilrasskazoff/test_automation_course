@@ -41,3 +41,6 @@ https://docs.pytest.org/en/stable/fixture.html
 
 skip and xfail
 https://pytest.org/en/stable/how-to/skipping.html
+
+параметры xfail
+https://docs.pytest.org/en/latest/reference/reference.html#pytest.mark.xfail
