@@ -1,0 +1,38 @@
+https://selenium-python.readthedocs.io/locating-elements.html#locating-hyperlinks-by-link-text
+https://learn.javascript.ru/css-selectors
+http://chromedriver.chromium.org/getting-started
+http://barancev.github.io/good-locators/
+
+Ожидания в Selenium WebDriver:
+https://www.selenium.dev/documentation/webdriver/waits/
+https://stackoverflow.com/questions/15122864/selenium-wait-until-document-is-ready
+https://blog.codeship.com/get-selenium-to-wait-for-page-load/
+http://barancev.github.io/slow-loading-pages/
+http://barancev.github.io/page-loading-complete/
+
+работа с Git
+https://learngitbranching.js.org/
+https://githowto.com/ru
+https://habr.com/ru/company/intel/blog/344962/
+
+руководство по написанию юнит-тестов в Python:
+https://realpython.com/python-testing/
+
+пирамида тестирования
+https://habr.com/ru/post/358950/
+
+assert-methods
+https://docs.python.org/3/library/unittest.html#assert-methods
+
+unittest selenium
+https://selenium-python.readthedocs.io/getting-started.html#using-selenium-to-write-tests
+
+useful pytest commands
+https://gist.github.com/amatellanes/12136508b816469678c2
+
+фикстуры — создание setup- и teardown-методов в файле с тестами на уровне модуля, класса, метода
+https://docs.pytest.org/en/latest/how-to/xunit_setup.html
+
+Дополнительные материалы про фикстуры
+https://habr.com/ru/company/yandex/blog/242795/
+https://docs.pytest.org/en/stable/fixture.html
