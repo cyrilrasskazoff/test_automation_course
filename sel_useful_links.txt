@@ -1,3 +1,5 @@
+курс по автоматизации: https://stepik.org/course/575/syllabus
+
 https://selenium-python.readthedocs.io/locating-elements.html#locating-hyperlinks-by-link-text
 https://learn.javascript.ru/css-selectors
 http://chromedriver.chromium.org/getting-started
