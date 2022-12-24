@@ -1,3 +1,4 @@
+# применние конфигурационного файла conftest.py
 from selenium.webdriver.common.by import By
 
 link = "http://selenium1py.pythonanywhere.com/"
