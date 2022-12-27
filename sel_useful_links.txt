@@ -47,3 +47,6 @@ https://docs.pytest.org/en/latest/reference/reference.html#pytest.mark.xfail
 
 параметризация фикстур и тестовых ф-ций
 https://docs.pytest.org/en/latest/how-to/parametrize.html
+
+параметризация тестов в командной строке
+https://docs.pytest.org/en/latest/example/simple.html?highlight=addoption
