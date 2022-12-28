@@ -50,3 +50,7 @@ https://docs.pytest.org/en/latest/how-to/parametrize.html
 
 параметризация тестов в командной строке
 https://docs.pytest.org/en/latest/example/simple.html?highlight=addoption
+
+плагины для Pytest
+https://docs.pytest.org/en/latest/explanation/flaky.html#plugins
+https://docs.pytest.org/en/latest/reference/plugin_list.html
