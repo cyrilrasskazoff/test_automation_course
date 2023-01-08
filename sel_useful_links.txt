@@ -54,3 +54,8 @@ https://docs.pytest.org/en/latest/example/simple.html?highlight=addoption
 плагины для Pytest
 https://docs.pytest.org/en/latest/explanation/flaky.html#plugins
 https://docs.pytest.org/en/latest/reference/plugin_list.html
+
+Page Object
+https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/
+https://martinfowler.com/bliki/PageObject.html
+https://medium.com/tech-tajawal/page-object-model-pom-design-pattern-f9588630800b
