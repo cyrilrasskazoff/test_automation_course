@@ -59,3 +59,6 @@ Page Object
 https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/
 https://martinfowler.com/bliki/PageObject.html
 https://medium.com/tech-tajawal/page-object-model-pom-design-pattern-f9588630800b
+
+работа с исключениями в Python
+https://pythonworld.ru/tipy-dannyx-v-python/isklyucheniya-v-python-konstrukciya-try-except-dlya-obrabotki-isklyuchenij.html
