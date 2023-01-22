@@ -62,3 +62,7 @@ https://medium.com/tech-tajawal/page-object-model-pom-design-pattern-f9588630800
 
 работа с исключениями в Python
 https://pythonworld.ru/tipy-dannyx-v-python/isklyucheniya-v-python-konstrukciya-try-except-dlya-obrabotki-isklyuchenij.html
+
+
+как делать не стоит
+https://habr.com/ru/company/badoo/blog/419419/
