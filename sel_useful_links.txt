@@ -51,6 +51,10 @@ https://docs.pytest.org/en/latest/how-to/parametrize.html
 параметризация тестов в командной строке
 https://docs.pytest.org/en/latest/example/simple.html?highlight=addoption
 
+
+сеттинги conftest.py
+https://automated-testing.info/t/argumenty-pri-zapuske-testov-vybor-brauzera-stenda-okruzhenii-pytest-selenium/26689
+
 плагины для Pytest
 https://docs.pytest.org/en/latest/explanation/flaky.html#plugins
 https://docs.pytest.org/en/latest/reference/plugin_list.html
