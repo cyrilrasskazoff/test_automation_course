@@ -1,4 +1,5 @@
 # использование скриптов: execute_script
+# https://developer.mozilla.org/ru/docs/Web/API/Element/scrollIntoView
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
