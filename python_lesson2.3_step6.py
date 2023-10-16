@@ -5,7 +5,8 @@
 # Чтобы узнать имя новой вкладки, нужно использовать метод window_handles, который возвращает
 # массив имён всех вкладок. Зная, что в браузере теперь открыто две вкладки, выбираем вторую вкладку: new_window = browser.window_handles[1]
 
-# Также мы можем запомнить имя текущей вкладки, чтобы иметь возможность потом к ней вернуться: first_window = browser.window_handles[0]
+# Также мы можем запомнить имя текущей вкладки, чтобы иметь возможность потом к ней вернуться: current_window = browser.window_handles[0]
+# еще один способ узнать имя текущей вкладки: current_window = browser.current_window_handle
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -24,7 +25,8 @@ try:
 
     button_1 = browser.find_element(By.XPATH, '//button')
     browser.execute_script(
-        "document.getElementsByTagName('button')[0].classList.remove('trollface');")  # это скрипт для удаления класса, с помощью которого кнопка перемещается
+        "document.getElementsByTagName('button')[0].classList.remove('trollface');")  # это скрипт для удаления класса,
+    # с помощью которого кнопка перемещается
     button_1.click()
 
     new_window = browser.window_handles[1]
@@ -43,7 +45,7 @@ try:
     time.sleep(1)
 
 finally:
-    time.sleep(10)
+    time.sleep(5)
     browser.quit()
 
 # не забываем оставить пустую строку в конце файла!
