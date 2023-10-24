@@ -1,6 +1,7 @@
 # Способы избежать ложного падения тестов из-за асинхронной работы скриптов или задержек от сервера.
 # Selenium Waits (Implicit Waits) имлицитное ожидание:
-# метод implicitly_wait({time in seconds}) - позволяет избежать метода time.wait(), который нужно вызывать при каждой необходимости ожидания
+# метод implicitly_wait({time in seconds}) - позволяет избежать метода time.wait(),
+# который нужно вызывать при каждой необходимости ожидания
 # метод implicitly_wait() вызывается 1 раз и применяется ко всему файлу
 from selenium import webdriver
 from selenium.webdriver.common.by import By
