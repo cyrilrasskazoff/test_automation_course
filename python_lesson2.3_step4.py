@@ -17,7 +17,7 @@
 # 3 тип Prompt - имеет дополнительное поле для ввода текста. Чтобы ввести текст, используйте метод send_keys()
 # prompt = browser.switch_to.alert
 # prompt.send_keys("My answer")
-# prompt.accept()
+# prompt.accept() OR prompt.dismiss()
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
