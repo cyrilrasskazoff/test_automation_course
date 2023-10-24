@@ -46,7 +46,8 @@ try:
     browser = webdriver.Chrome()
     browser.get("http://suninjuly.github.io/wait2.html")
     # говорим Selenium ждать в течение 5 секунд пока кнопка станет активной
-    button = WebDriverWait(browser, 5).until(EC.element_to_be_clickable((By.ID, "verify"))) # element_to_be_clickable вернет элемент, когда он станет кликабельным, или вернет False
+    button = WebDriverWait(browser, 5).until(EC.element_to_be_clickable((By.ID, "verify"))) # element_to_be_clickable
+    # вернет элемент, когда он станет кликабельным, или вернет False
     button.click()
     message = browser.find_element(By.ID, "verify_message")
 
@@ -54,7 +55,8 @@ try:
 finally:
     browser.quit()
 
-# Если мы захотим проверять, что кнопка становится неактивной после отправки данных, то можно задать негативное правило с помощью метода until_not:
+# Если мы захотим проверять, что кнопка становится неактивной после отправки данных, то можно задать негативное правило
+# с помощью метода until_not:
 # говорим Selenium проверять в течение 5 секунд пока кнопка станет неактивной
 # button = WebDriverWait(browser, 5).until_not(EC.element_to_be_clickable((By.ID, "verify")))
 
