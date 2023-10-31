@@ -12,6 +12,9 @@ class TestWelcomeText(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
 
+    def tearDown(self):
+        self.driver.quit()
+
     def test_search_element_1(self):
         driver = webdriver.Chrome()
         driver.get(url)
