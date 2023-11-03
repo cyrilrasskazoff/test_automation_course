@@ -52,3 +52,8 @@ def test_exception2():
             pytest.fail("Не должно быть кнопки Отправить")
     finally:
         browser.quit()
+
+
+
+# В первом тесте элемент будет найден, поэтому ошибка NoSuchElementException, которую ожидает контекстный менеджер
+# pytest.raises, не возникнет, и тест упадёт.
