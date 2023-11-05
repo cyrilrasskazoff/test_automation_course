@@ -15,6 +15,10 @@
 # Чтобы запустить только smoke-тесты для Windows 10, нужно использовать логическое И:
 # pytest -s -v -m "smoke and win10" test_fixture7.py
 
+
+# обратить внимание на наичие кавычек при наличии логических операторов (not, or and) в команде запуска тестов, e.g.
+# pytest -s -v -m "not smoke" test_fixture6.py/ pytest -s -v -m "smoke and win10" test_fixture7.py
+
 import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
