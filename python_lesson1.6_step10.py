@@ -22,7 +22,7 @@ try:
     time.sleep(1)
 
     # находим элемент, содержащий текст
-    welcome_text = browser.find_element(By.TAG_NAME, "h1")
+    welcome_text = browser.find_element(By.TAG_NAME, "h1") #<h1>Congratulations! You have successfully registered!</h1>
     text = welcome_text.text
 
     # с помощью assert проверяем, что ожидаемый текст совпадает с текстом на странице сайта
