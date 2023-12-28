@@ -9,15 +9,20 @@ try:
     browser = webdriver.Chrome()
     browser.get(url)
 
-    input1 = browser.find_element(By.TAG_NAME, 'input')
+    input1 = browser.find_element(By.TAG_NAME, 'input') #<input type="text" name="first_name" class="form-control"
+    # required="" maxlength="32">
     input1.send_keys("Ivan")
-    input2 = browser.find_element(By.NAME, 'last_name')
+    input2 = browser.find_element(By.NAME, 'last_name') #<input type="text" name="last_name" class="form-control"
+    # required="" maxlength="32">
     input2.send_keys("Petrov")
-    input3 = browser.find_element(By.CLASS_NAME, 'city')
+    input3 = browser.find_element(By.CLASS_NAME, 'city') #<input type="text" name="firstname"
+    # class="form-control city" required="" maxlength="32">
     input3.send_keys("Smolensk")
-    input4 = browser.find_element(By.ID, 'country')
+    input4 = browser.find_element(By.ID, 'country') #<input type="text" name="firstname" class="form-control"
+    # id="country" required="" maxlength="32">
     input4.send_keys("Russia")
-    button = browser.find_element(By.CSS_SELECTOR, 'button.btn')
+    button = browser.find_element(By.CSS_SELECTOR, 'button.btn') #<button id="submit_button" type="submit"
+    # class="btn btn-default">Submit</button>
     button.click()
 
 finally:
