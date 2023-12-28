@@ -33,7 +33,7 @@ try:
 
     # решение с помощью Select в следующтх 2 строках кода
     # dropdown = Select(browser.find_element(By.TAG_NAME, "select"))
-    # dropdown.select_by_value(result)
+    # dropdown.select_by_value(result) #<option value="59">59</option>
 
     browser.find_element(By.TAG_NAME, "select").click()
     browser.find_element(By.CSS_SELECTOR, f'[value="{result}"]').click() # чтобы передать переменную в значение селектора нужно использовать f-строку!!
