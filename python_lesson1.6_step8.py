@@ -4,6 +4,8 @@
 # по порядковому номеру. //div[@class="row"]/div[2]
 # по полному совпадению текста. //p[text()="<text>"]. Такой селектор вернет элемент, только если текст полностью совпадет.
 # по частичному совпадению текста или атрибута. //p[contains(text(), "<text>")]
+# по содержимому - //button[contains(@class, 'btn')]
+# по нескольким атрибутам - //input[@type='email' and @role='login']
 # булевы операции (and, or, not) и некоторые простые арифметические выражения //img[@name='bullet-cat' and @data-type='animal']
 from selenium import webdriver
 from selenium.webdriver.common.by import By
