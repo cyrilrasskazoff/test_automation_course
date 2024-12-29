@@ -1,14 +1,18 @@
 # Использование метода find_elements
+from faker import Faker
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
+
+fake = Faker()
+
 
 try:
     browser = webdriver.Chrome()
     browser.get("http://suninjuly.github.io/huge_form.html")
     elements = browser.find_elements(By.CSS_SELECTOR, 'input[type="text"]')
     for element in elements:
-        element.send_keys("Мой ответ")
+        element.send_keys(fake.random_number())
 
     button = browser.find_element(By.CSS_SELECTOR, "button.btn")
     button.click()
