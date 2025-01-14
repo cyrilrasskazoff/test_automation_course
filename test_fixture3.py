@@ -2,6 +2,8 @@
 # чтобы оперативная память не закончилась быстро, надо явно закрывать браузеры после каждого теста.
 # Для этого мы можем воспользоваться финализаторами. Один из вариантов финализатора — использование ключевого слова Python: yield.
 # После завершения теста, который вызывал фикстуру, выполнение фикстуры продолжится со строки, следующей за строкой со словом yield:
+# Aльтернативный способ вызова teardown кода с помощью встроенной фикстуры request и ее метода addfinalizer: \
+# https://docs.pytest.org/en/latest/how-to/fixtures.html#adding-finalizers-directly
 
 import pytest
 from selenium import webdriver
@@ -13,11 +15,11 @@ url = "http://selenium1py.pythonanywhere.com/"
 @pytest.fixture
 def browser():
     print("\nstart browser for test..")
-    browser = webdriver.Chrome()
-    yield browser
+    browser_object = webdriver.Chrome()
+    yield browser_object
     # этот код выполнится после завершения теста
     print("\nquit browser..")
-    browser.quit()
+    browser_object.quit()
 
 
 class TestMainPage1():
