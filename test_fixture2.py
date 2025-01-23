@@ -6,6 +6,7 @@
 # создадим фикстуру browser, которая будет создавать объект WebDriver.
 # Этот объект мы сможем использовать в тестах для взаимодействия с браузером. Для этого мы напишем метод browser и укажем,
 # что он является фикстурой с помощью декоратора @pytest.fixture. После этого мы можем вызывать фикстуру в тестах, передав ее как параметр.
+# почитать про фикстуры: https://tproger.ru/articles/pytest-fikstury-na-chelovecheskom
 
 import pytest
 from selenium import webdriver
