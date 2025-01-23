@@ -36,16 +36,16 @@ def pytest_addoption(parser):
 @pytest.fixture(scope="function")
 def browser(request):
     browser_name = request.config.getoption("browser_name")
-    browser = None
+    driver = None
     if browser_name == "chrome":
         print("\nstart chrome browser for test..")
-        browser = webdriver.Chrome()
+        driver = webdriver.Chrome()
     elif browser_name == "firefox":
         print("\nstart firefox browser for test..")
-        browser = webdriver.Firefox()
+        driver = webdriver.Firefox()
     else:
         raise pytest.UsageError("--browser_name should be chrome or firefox")
-    yield browser
+    yield driver
     print("\nquit browser..")
-    browser.quit()
+    driver.quit()
 
